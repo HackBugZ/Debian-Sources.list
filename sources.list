@@ -1,0 +1,136 @@
+## All Debian Package Sources by Category
+##
+## deb     = binary packages | apt install
+## deb-src = source packages | build & patches
+
+##
+## MAIN STABLE
+## Officially supported free and open-source software from the current stable Debian release
+
+deb https://deb.debian.org/debian bookworm main
+#deb-src https://deb.debian.org/debian bookworm main
+
+deb https://deb.debian.org/debian-security bookworm-security main
+#deb-src https://deb.debian.org/debian-security bookworm-security main
+
+deb https://deb.debian.org/debian bookworm-updates main
+#deb-src https://deb.debian.org/debian bookworm-updates main
+
+##
+## CONTRIB
+## Free software that depends on non-free packages to work
+
+#deb https://deb.debian.org/debian bookworm contrib
+#deb-src https://deb.debian.org/debian bookworm contrib
+
+#deb https://deb.debian.org/debian-security bookworm-security contrib
+#deb-src https://deb.debian.org/debian-security bookworm-security contrib
+
+#deb https://deb.debian.org/debian bookworm-updates contrib
+#deb-src https://deb.debian.org/debian bookworm-updates contrib
+
+##
+## NON-FREE
+## Software that does not fully comply with Debian Free Software Guidelines (DFSG)
+
+#deb https://deb.debian.org/debian bookworm non-free
+#deb-src https://deb.debian.org/debian bookworm non-free
+
+#deb https://deb.debian.org/debian-security bookworm-security non-free
+#deb-src https://deb.debian.org/debian-security bookworm-security non-free
+
+#deb https://deb.debian.org/debian bookworm-updates non-free
+#deb-src https://deb.debian.org/debian bookworm-updates non-free
+
+##
+## NON-FREE-FIRMWARE
+## Proprietary firmware needed by some hardware to function correctly
+
+#deb https://deb.debian.org/debian bookworm non-free-firmware
+#deb-src https://deb.debian.org/debian bookworm non-free-firmware
+
+#deb https://deb.debian.org/debian-security bookworm-security non-free-firmware
+#deb-src https://deb.debian.org/debian-security bookworm-security non-free-firmware
+
+#deb https://deb.debian.org/debian bookworm-updates non-free-firmware
+#deb-src https://deb.debian.org/debian bookworm-updates non-free-firmware
+
+##
+## BACKPORTS
+## Newer versions of packages from testing/unstable, recompiled for stable
+
+#deb https://deb.debian.org/debian bookworm-backports main
+#deb-src https://deb.debian.org/debian bookworm-backports main
+
+#deb https://deb.debian.org/debian bookworm-backports contrib
+#deb-src https://deb.debian.org/debian bookworm-backports contrib
+
+#deb https://deb.debian.org/debian bookworm-backports non-free
+#deb-src https://deb.debian.org/debian bookworm-backports non-free
+
+#deb https://deb.debian.org/debian bookworm-backports non-free-firmware
+#deb-src https://deb.debian.org/debian bookworm-backports non-free-firmware
+
+##
+## PROPOSED UPDATES
+## Candidate updates for the next stable point release, pending validation
+
+#deb https://deb.debian.org/debian bookworm-proposed-updates main
+#deb-src https://deb.debian.org/debian bookworm-proposed-updates main
+
+#deb https://deb.debian.org/debian bookworm-proposed-updates contrib
+#deb-src https://deb.debian.org/debian bookworm-proposed-updates contrib
+
+#deb https://deb.debian.org/debian bookworm-proposed-updates non-free
+#deb-src https://deb.debian.org/debian bookworm-proposed-updates non-free
+
+#deb https://deb.debian.org/debian bookworm-proposed-updates non-free-firmware
+#deb-src https://deb.debian.org/debian bookworm-proposed-updates non-free-firmware
+
+##
+## TESTING
+## Next Debian release in preparation; more up-to-date but less tested than stable
+
+#deb https://deb.debian.org/debian testing main
+#deb-src https://deb.debian.org/debian testing main
+
+#deb https://deb.debian.org/debian testing contrib
+#deb-src https://deb.debian.org/debian testing contrib
+
+#deb https://deb.debian.org/debian testing non-free
+#deb-src https://deb.debian.org/debian testing non-free
+
+#deb https://deb.debian.org/debian testing non-free-firmware
+#deb-src https://deb.debian.org/debian testing non-free-firmware
+
+##
+## UNSTABLE (SID)
+## Actively developed Debian branch with the latest package versions; may break
+
+#deb https://deb.debian.org/debian unstable main
+#deb-src https://deb.debian.org/debian unstable main
+
+#deb https://deb.debian.org/debian unstable contrib
+#deb-src https://deb.debian.org/debian unstable contrib
+
+#deb https://deb.debian.org/debian unstable non-free
+#deb-src https://deb.debian.org/debian unstable non-free
+
+#deb https://deb.debian.org/debian unstable non-free-firmware
+#deb-src https://deb.debian.org/debian unstable non-free-firmware
+
+##
+## EXPERIMENTAL
+## Highly unstable packages under early testing; may break systems
+
+#deb https://deb.debian.org/debian experimental main
+#deb-src https://deb.debian.org/debian experimental main
+
+#deb https://deb.debian.org/debian experimental contrib
+#deb-src https://deb.debian.org/debian experimental contrib
+
+#deb https://deb.debian.org/debian experimental non-free
+#deb-src https://deb.debian.org/debian experimental non-free
+
+#deb https://deb.debian.org/debian experimental non-free-firmware
+#deb-src https://deb.debian.org/debian experimental non-free-firmware
