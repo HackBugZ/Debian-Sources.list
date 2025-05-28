@@ -9,23 +9,23 @@ The goal is to provide a full setup for learning, testing, and experimenting wit
 
 Includes:
 
-    **main** – Free and open-source software officially supported by Debian
+    main – Free and open-source software officially supported by Debian
 
-    **contrib** – Free software that depends on non-free packages
+    contrib – Free software that depends on non-free packages
 
-    **non-free** – Non-free software (e.g. with restrictive licenses)
+    non-free – Non-free software (e.g. with restrictive licenses)
 
-    **non-free-firmware** – Firmware that is not freely licensed
+    non-free-firmware – Firmware that is not freely licensed
 
-    **updates** – Important updates between point releases
+    updates – Important updates between point releases
 
-    **security** – Security updates from the Debian security team
+    security – Security updates from the Debian security team
 
-    **proposed-updates** – Candidate packages for the next point release
+    proposed-updates – Candidate packages for the next point release
 
-    **backports** – Newer packages ported from testing
+    backports – Newer packages ported from testing
 
-    **deb-src** – Source packages (optional, for building or patching)
+    deb-src – Source packages (optional, for building or patching)
 
 Feel free to adapt the list to your needs.
 
