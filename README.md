@@ -29,3 +29,11 @@ Includes:
 
 Feel free to adapt the list to your needs.
 
+
+Question and Answer on Unix & Linux | unix.stackexchange.com.
+
+This is intended to be a sources list for a lab, learning, and testing machine for Debian 12 Bookworm.
+It should include all possible repositories from official Debian servers only...
+
+- <a href="https://unix.stackexchange.com/q/796356/342980" target="_blank">All available Debian 12 repository entries for /etc/apt/sources.list from official Debian servers</a>
+
