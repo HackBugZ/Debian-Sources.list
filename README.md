@@ -1,4 +1,4 @@
-Debian 12 APT Sources List – For Learning, Testing, and Development
+<b>Debian 12 APT Sources List – For Learning, Testing, and Development</b>
 
 This is a complete and categorized APT sources list for a Debian-12-based test system.
 It includes all official Debian repositories from Debian servers only.
@@ -7,7 +7,7 @@ Each repository entry is split into a single line for easy enabling/disabling vi
 
 The goal is to provide a full setup for learning, testing, and experimenting with Debian 12 packages.
 
-Includes:
+<b>Includes:</b>
 
     main – Free and open-source software officially supported by Debian
 
